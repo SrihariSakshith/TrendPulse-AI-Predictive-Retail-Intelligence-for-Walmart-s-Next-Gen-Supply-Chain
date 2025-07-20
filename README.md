@@ -102,8 +102,6 @@ frontend/
 ├── package.json            # Project metadata, scripts (like `npm run dev`), and dependency list
 └── vite.config.js          # Configuration file for the Vite build tool
 
-```
-
 ## 🏁 Getting Started
 
 To get a local copy up and running, follow these simple steps.
