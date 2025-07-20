@@ -49,11 +49,6 @@ Frontend (React) ↔ Backend API (FastAPI) ↔ External Services (Google Trends,
 | Frontend   | React (Vite), Material-UI (MUI), MapLibre GL (for interactive maps), Recharts (for data viz), Framer Motion |
 | Dev Tools  | Uvicorn, Git, Visual Studio Code |
 
-### 📁 File Structure (Markdown Code for README)
-
-Here’s the cleaned-up and ready-to-paste Markdown code:
-
-```markdown
 ## 📁 Project Structure
 
 ### Backend Structure (`backend/`)
@@ -101,6 +96,7 @@ frontend/
 ├── index.html              # The root HTML file for this single-page application
 ├── package.json            # Project metadata, scripts (like `npm run dev`), and dependency list
 └── vite.config.js          # Configuration file for the Vite build tool
+```
 
 ## 🏁 Getting Started
 
