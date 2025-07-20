@@ -1,0 +1,1 @@
+# TrendPulse-AI-Predictive-Retail-Intelligence-for-Walmart-s-Next-Gen-Supply-Chain
