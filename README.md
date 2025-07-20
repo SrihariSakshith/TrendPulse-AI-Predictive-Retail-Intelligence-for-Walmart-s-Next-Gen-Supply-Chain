@@ -24,7 +24,7 @@ Our engine fuses internal sales data with live, external Google Trends data to g
 (Replace these placeholders with your actual screenshots of the application)
 
 **Main Dashboard (Ranked Alerts)** | **Critical Analysis (Transfer Rec)** | **Gemini AI Opportunity Analysis**  
-[Screenshot of the dashboard] | [Screenshot of the map view] | [Screenshot of the Gemini response]
+<p align="center"> <img src="img 1.jpg" alt="Main Dashboard (Ranked Alerts)" width="300"/> <img src="img 2.jpg" alt="Critical Analysis (Transfer Rec)" width="300"/> <img src="img 3.jpg" alt="Gemini AI Opportunity Analysis" width="300"/> </p> <p align="center"> <img src="img 4.jpg" alt="Screenshot 4" width="300"/> <img src="img 5.jpg" alt="Screenshot 5" width="300"/> <img src="img 6.jpg" alt="Screenshot 6" width="300"/> </p> <p align="center"> <img src="img 7.jpg" alt="Screenshot 7" width="300"/> </p>
 
 ## ✨ Key Features
 
