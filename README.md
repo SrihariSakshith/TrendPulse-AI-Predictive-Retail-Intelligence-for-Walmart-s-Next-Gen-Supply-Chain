@@ -49,6 +49,61 @@ Frontend (React) ↔ Backend API (FastAPI) ↔ External Services (Google Trends,
 | Frontend   | React (Vite), Material-UI (MUI), MapLibre GL (for interactive maps), Recharts (for data viz), Framer Motion |
 | Dev Tools  | Uvicorn, Git, Visual Studio Code |
 
+### 📁 File Structure (Markdown Code for README)
+
+Here’s the cleaned-up and ready-to-paste Markdown code:
+
+```markdown
+## 📁 Project Structure
+
+### Backend Structure (`backend/`)
+
+The backend is a Python application built with the FastAPI framework.
+
+```
+
+backend/
+├── myenv/                  # Python virtual environment (ignored by git)
+├── .env                    # Stores the secret GEMINI\_API\_KEY
+├── data\_catalog.py         # Defines all store, product, and opportunity data
+├── main.py                 # FastAPI application server and API endpoints (e.g., /simulate)
+├── requirements.txt        # Lists all Python dependencies (fastapi, pytrends, etc.)
+└── simulation\_engine.py    # The core logic for simulation, AI analysis, and decision-making
+
+```
+
+### Frontend Structure (`frontend/`)
+
+The frontend is a modern React application built using Vite.
+
+```
+
+frontend/
+├── node\_modules/           # Project dependencies (ignored by git)
+├── public/                 # Can hold static assets like a favicon
+├── src/
+│   ├── components/         # Folder for all reusable React components
+│   │   ├── ActionCard.jsx            # Displays the final transfer/replenish action card
+│   │   ├── AlertDashboard.jsx        # Main dashboard with ranked critical & opportunity cards
+│   │   ├── AnalyticsGraphs.jsx       # Renders the Sales vs. Trend chart
+│   │   ├── AnalysisView\.jsx          # Container that switches between analysis types
+│   │   ├── CriticalStockAnalysis.jsx # Detailed view for a critical stock alert
+│   │   ├── OpportunityAnalysis.jsx   # Detailed view for a new opportunity alert
+│   │   ├── Section.jsx               # A reusable styled container component for UI consistency
+│   │   └── SolutionMap.jsx           # Renders the interactive map with transfer routes
+│   │
+│   ├── App.jsx                 # The main application component, state management, and view router
+│   ├── data\_catalog\_fe.js      # Frontend's local copy of store data (names, coords) for mapping
+│   ├── index.css               # Global CSS styles and animations
+│   └── main.jsx                # The entry point of the React application, includes theme setup
+│
+├── .env                    # Stores the public VITE\_MAPTILER\_API\_KEY
+├── index.html              # The root HTML file for this single-page application
+├── package.json            # Project metadata, scripts (like `npm run dev`), and dependency list
+└── vite.config.js          # Configuration file for the Vite build tool
+
+```
+
 ## 🏁 Getting Started
 
 To get a local copy up and running, follow these simple steps.
