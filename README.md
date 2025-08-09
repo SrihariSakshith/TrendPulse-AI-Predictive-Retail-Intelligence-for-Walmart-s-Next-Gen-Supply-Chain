@@ -1,4 +1,4 @@
-# TrendPulse-AI-Predictive-Retail-Intelligence-for-Walmart-s-Next-Gen-Supply-Chain
+# TrendPulse AI Predictive Retail Intelligence for Walmart's Next Gen Supply Chain
 
 ![alt text](https://img.shields.io/badge/Walmart-Sparkathon-blue.svg)
 ![alt text](https://img.shields.io/badge/status-complete-success.svg)
